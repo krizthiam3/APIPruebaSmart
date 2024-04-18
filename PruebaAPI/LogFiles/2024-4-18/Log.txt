@@ -1,0 +1,10 @@
+[2024-04-18 00:03:30.040 [Information] La consulta de todas las categorias fue exitosa. tiempo de respuesta de request: 00:00:01.1069662
+[2024-04-18 00:03:41.338 [Information] La consutla de la categoria fue exitosa. tiempo de respuesta de request: 00:00:00.0671595
+[2024-04-18 00:04:26.085 [Information] Login exitoso. tiempo de respuesta de request: 00:00:00.1902517
+[2024-04-18 00:04:41.114 [Information] Login exitoso. tiempo de respuesta de request: 00:00:00.0088238
+[2024-04-18 00:07:08.548 [Information] Login exitoso. tiempo de respuesta de request: 00:00:01.2353545
+[2024-04-18 00:11:37.298 [Information] Login exitoso. tiempo de respuesta de request: 00:00:01.3958587
+[2024-04-18 00:15:54.790 [Information] Login exitoso. tiempo de respuesta de request: 00:00:01.1898251
+[2024-04-18 00:22:01.974 [Information] Login exitoso. tiempo de respuesta de request: 00:01:47.1940367
+[2024-04-18 00:28:46.032 [Information] Login exitoso. tiempo de respuesta de request: 00:00:05.2501993
+[2024-04-18 00:32:35.462 [Information] La Creacion de la categria fue exitosa. tiempo de respuesta de request: 00:00:10.4401574

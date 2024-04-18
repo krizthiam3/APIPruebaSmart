@@ -1,0 +1,15 @@
+[2024-04-16 22:08:12.410 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:01.2731647
+[2024-04-16 22:09:03.819 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:24.4946241
+[2024-04-16 22:22:01.090 [Information] La consulta de todas las categorias fue exitosa. tiempo de respuesta de request: 00:00:01.1730047
+[2024-04-16 22:22:27.992 [Information] La Creacion de la categria fue exitosa. tiempo de respuesta de request: 00:00:00.2725270
+[2024-04-16 22:23:21.858 [Information] La Creacion de la categria fue exitosa. tiempo de respuesta de request: 00:00:01.0763043
+[2024-04-16 22:32:37.047 [Information] La Creacion de la categria fue exitosa. tiempo de respuesta de request: 00:00:14.0543658
+[2024-04-16 22:32:44.662 [Information] La consulta de todas las categorias fue exitosa. tiempo de respuesta de request: 00:00:00.3150960
+[2024-04-16 22:33:00.353 [Information] La consutla de la categoria fue exitosa. tiempo de respuesta de request: 00:00:00.0570499
+[2024-04-16 22:33:04.123 [Information] La consutla de la categoria fue exitosa. tiempo de respuesta de request: 00:00:00.0072913
+[2024-04-16 22:33:08.888 [Information] La consutla de la categoria fue exitosa. tiempo de respuesta de request: 00:00:00.0042231
+[2024-04-16 22:33:48.189 [Information] La consulta de todas las categorias fue exitosa. tiempo de respuesta de request: 00:00:00.0061118
+[2024-04-16 22:34:18.035 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:00.0126031
+[2024-04-16 22:35:04.967 [Information] La Creacion del producto fue exitosa. tiempo de respuesta de request: 00:00:00.0412965
+[2024-04-16 22:35:14.387 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:00.0089022
+[2024-04-16 23:15:56.764 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:01.1268892

@@ -1,0 +1,56 @@
+[2024-04-17 00:17:55.861 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:01.3278739
+[2024-04-17 00:18:08.923 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:00.0688413
+[2024-04-17 00:18:10.324 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:00.1207251
+[2024-04-17 00:20:00.361 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:01:38.6167549
+[2024-04-17 00:20:07.665 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:02.5011266
+[2024-04-17 00:20:16.798 [Information] La consutla del producto fue exitosa. tiempo de respuesta de request: 00:00:00.0716529
+[2024-04-17 00:38:22.469 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:01.4006573
+[2024-04-17 00:38:34.591 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:00.0247318
+[2024-04-17 00:38:40.702 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:00.0638676
+[2024-04-17 00:39:05.551 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:01.1496362
+[2024-04-17 00:41:52.558 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:01.1237620
+[2024-04-17 00:41:58.964 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:00.0265157
+[2024-04-17 18:13:15.551 [Information] La Creacion del Orden fue exitosa. tiempo de respuesta de request: 00:00:01.0703885
+[2024-04-17 18:17:23.476 [Information] La Creacion del Orden fue exitosa. tiempo de respuesta de request: 00:01:53.1044909
+[2024-04-17 18:21:01.956 [Information] La Creacion del Orden fue exitosa. tiempo de respuesta de request: 00:00:01.1467155
+[2024-04-17 18:21:54.286 [Information] La Creacion del Orden fue exitosa. tiempo de respuesta de request: 00:00:01.1158038
+[2024-04-17 18:22:10.367 [Information] La consutla del producto fue exitosa. tiempo de respuesta de request: 00:00:00.3986042
+[2024-04-17 18:29:26.047 [Information] La consulta de todas las categorias fue exitosa. tiempo de respuesta de request: 00:00:01.2006968
+[2024-04-17 18:29:38.400 [Information] La consutla de la categoria fue exitosa. tiempo de respuesta de request: 00:00:00.0793102
+[2024-04-17 18:29:50.647 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:00.0941592
+[2024-04-17 18:30:00.526 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:00.0324176
+[2024-04-17 18:42:49.914 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:01.1096883
+[2024-04-17 18:45:43.790 [Information] La Creacion del Orden fue exitosa. tiempo de respuesta de request: 00:00:06.4142671
+[2024-04-17 18:47:21.048 [Information] La Creacion del Orden fue exitosa. tiempo de respuesta de request: 00:00:01.1746472
+[2024-04-17 19:04:15.913 [Information] La Creacion del Orden fue exitosa. tiempo de respuesta de request: 00:00:22.0029736
+[2024-04-17 19:09:29.781 [Information] La Creacion del Orden fue exitosa. tiempo de respuesta de request: 00:00:15.0780750
+[2024-04-17 19:11:13.473 [Information] La Creacion del Orden fue exitosa. tiempo de respuesta de request: 00:00:07.8600353
+[2024-04-17 19:12:18.823 [Information] La Creacion del Orden fue exitosa. tiempo de respuesta de request: 00:00:03.1877030
+[2024-04-17 19:13:47.655 [Information] La Creacion del Orden fue exitosa. tiempo de respuesta de request: 00:00:01.1086583
+[2024-04-17 19:14:49.080 [Information] La Creacion del Orden fue exitosa. tiempo de respuesta de request: 00:00:00.1168310
+[2024-04-17 19:30:03.635 [Information] La consutla del detalle fue exitosa. tiempo de respuesta de request: 00:00:01.2063079
+[2024-04-17 19:30:42.280 [Information] La consutla del detalle fue exitosa. tiempo de respuesta de request: 00:00:11.0558054
+[2024-04-17 19:31:01.563 [Information] La consutla del detalle fue exitosa. tiempo de respuesta de request: 00:00:04.0189385
+[2024-04-17 19:32:45.006 [Information] La consutla del detalle fue exitosa. tiempo de respuesta de request: 00:01:39.0147410
+[2024-04-17 19:41:51.409 [Information] La consutla del detalle fue exitosa. tiempo de respuesta de request: 00:07:30.2357789
+[2024-04-17 19:41:51.679 [Information] La Creacion del Orden fue exitosa. tiempo de respuesta de request: 00:00:00.2187783
+[2024-04-17 19:41:54.062 [Information] La Creacion del Orden fue exitosa. tiempo de respuesta de request: 00:00:00.0743222
+[2024-04-17 19:45:05.728 [Information] La consutla del detalle fue exitosa. tiempo de respuesta de request: 00:00:01.1869146
+[2024-04-17 19:47:32.613 [Information] La consutla del detalle fue exitosa. tiempo de respuesta de request: 00:00:14.3415933
+[2024-04-17 19:47:48.674 [Information] La consutla del detalle fue exitosa. tiempo de respuesta de request: 00:00:00.0414222
+[2024-04-17 19:48:53.573 [Information] La consutla del detalle fue exitosa. tiempo de respuesta de request: 00:00:01.2403878
+[2024-04-17 19:49:03.369 [Information] La consutla del detalle fue exitosa. tiempo de respuesta de request: 00:00:02.5382409
+[2024-04-17 19:57:51.269 [Information] La Creacion del Orden fue exitosa. tiempo de respuesta de request: 00:00:01.0334222
+[2024-04-17 20:07:34.989 [Information] La consulta de todas las categorias fue exitosa. tiempo de respuesta de request: 00:00:00.9972551
+[2024-04-17 21:00:01.120 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:01.1430280
+[2024-04-17 21:05:34.579 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:00.9889885
+[2024-04-17 21:10:16.475 [Information] La Creacion del Orden fue exitosa. tiempo de respuesta de request: 00:00:02.9088164
+[2024-04-17 21:25:51.439 [Information] La Creacion del Orden fue exitosa. tiempo de respuesta de request: 00:00:02.9776051
+[2024-04-17 23:07:38.593 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:11.7818222
+[2024-04-17 23:10:26.906 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:01.4720140
+[2024-04-17 23:11:59.468 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:01.4181389
+[2024-04-17 23:12:15.555 [Information] La consulta de todos los productos fue exitosa. tiempo de respuesta de request: 00:00:00.0345189
+[2024-04-17 23:25:57.833 [Information] Login exitoso. tiempo de respuesta de request: 00:00:01.6968233
+[2024-04-17 23:26:08.913 [Information] Login exitoso. tiempo de respuesta de request: 00:00:00.4709892
+[2024-04-17 23:50:55.867 [Information] La consulta de todas las categorias fue exitosa. tiempo de respuesta de request: 00:00:01.0688740
+[2024-04-17 23:51:29.641 [Information] Login exitoso. tiempo de respuesta de request: 00:00:00.2125110
