@@ -61,7 +61,7 @@ Estructura del proyecto y los principales archivos y carpetas. :
 1. Capa de Presentación (Interfaz de Usuario):
 2. Capa de Lógica de Aplicación (o Capa de Negocio):
 3. Capa de Acceso a Datos:
-5. Capa de Pruebas:
+4. Capa de Entidades:
 
    ![image](https://github.com/krizthiam3/pruebaTekton/assets/3958240/5a388f94-5a8a-46f0-9b8b-ff49baeb46cb)
 
