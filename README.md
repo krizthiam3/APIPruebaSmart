@@ -1,24 +1,20 @@
-# API - Prueba TekTon
-
-Api para un sistema de registro de productos que soporte las siguientes funcionalidades de un maestro de
-productos.
+# API - Prueba API Smart
+Solución ejercicio vacante (24007) Desarrollador Backend
 
 ## Tecnologías Utilizadas
 - ASP.NET Core
 - C#
 - Entity Framework Core
 - SQL Server
-- Servicio externo, para consutlar descuentos:  https://mockapi.io/
 - Patron de Diseño Patter Repository
 - Arquitectura Limpia y bueenas practicas.
 
 ## Instalación y Requisitos
 
-1. Clona el repositorio: git clone https://github.com/krizthiam3/pruebaTekton.git
+1. Clona el repositorio: git clone https://github.com/krizthiam3/APIPruebaSmart.git
 2. Abrir la solucion del proyecto con visual studio ID
 3. Restaura los paquetes NuGet: con el comnado : dotnet restore
 4. Configura la cadena de conexión a la base de datos en appsettings.json
-5. Aplica las migraciones de la base de datos: dotnet ef database update
 
 ## Instalación de BASE de DATOS
 NOTA: Se el comando update, no crea la tabla automicaticamente, se debe crear de manera manual
