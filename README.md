@@ -17,60 +17,34 @@ Solución ejercicio vacante (24007) Desarrollador Backend
 4. Configura la cadena de conexión a la base de datos en appsettings.json
 
 ## Instalación de BASE de DATOS
-NOTA: Se el comando update, no crea la tabla automicaticamente, se debe crear de manera manual
+NOTA: Se  debe crear de manera manual una base de datos co el nombre APIPruebaSmart
+
+PASO 1
+
+![image](https://github.com/krizthiam3/APIPruebaSmart/assets/3958240/b032ecd5-0728-4077-bace-e670ee006e13)
+
+PASO 2 
+Ejecutar el script adjunto, para la creacion de las tablas e insertar los datos. 
+
+PASO 3
+
+Configurar la cadena de conexion hacia la base de datos, con los parametros adecuados, detntro del archivo de configuracion: appsettings.json
+
+![image](https://github.com/krizthiam3/APIPruebaSmart/assets/3958240/9b4b4346-5f28-4373-b705-cf728294488a)
 
 
-![image](https://github.com/krizthiam3/pruebaTekton/assets/3958240/a28c700f-fdd1-4b5a-b94d-8d0f212a62a7)
+
+##Docuemntacion API
+
+![image](https://github.com/krizthiam3/APIPruebaSmart/assets/3958240/c664f34f-fcd0-463b-9985-59041bae039c)
+
+![image](https://github.com/krizthiam3/APIPruebaSmart/assets/3958240/5862d778-0fa7-40af-a2dd-5766e394ebb0)
+
+![image](https://github.com/krizthiam3/APIPruebaSmart/assets/3958240/7ae19c4c-0a07-47f8-95e4-5c3f20690b17)
 
 
-Script 1 
-
-/****** Object:  Database [APIPrueba]    Script Date: 19/03/2024 10:53:37 p. m. ******/
-CREATE DATABASE [APIPrueba]
- CONTAINMENT = NONE
- ON  PRIMARY 
-( NAME = N'APIPrueba', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA\APIPrueba.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
- LOG ON 
-( NAME = N'APIPrueba_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA\APIPrueba_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
- WITH CATALOG_COLLATION = DATABASE_DEFAULT, LEDGER = OFF
-GO
-
-IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
-begin
-EXEC [APIPrueba].[dbo].[sp_fulltext_database] @action = 'enable'
-end
-GO
-
-Script 2
-
-USE [APIPrueba]
-GO
-
-/****** Object:  Table [dbo].[products]    Script Date: 19/03/2024 10:53:29 p. m. ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
-CREATE TABLE [dbo].[products](
-	[ProductId] [int] IDENTITY(1,1) NOT NULL,
-	[Nombre] [nvarchar](max) NOT NULL,
-	[Stock] [int] NOT NULL,
-	[Description] [nvarchar](max) NOT NULL,
-	[Price] [float] NOT NULL,
- CONSTRAINT [PK_products] PRIMARY KEY CLUSTERED 
-(
-	[ProductId] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
-GO
 
 
-##Uso
-Ejemplo de solicitud GET para obtener todos los elementos: GET /api/products
-Ejemplo de solicitud POST para crear un nuevo elemento: POST /api/products
-Ejemplo de solicitud GET para obtener todos los elementos: GET /api/products/{productId}
 
 ##Estructura del Proyecto
 Estructura del proyecto y los principales archivos y carpetas. :
