@@ -2,9 +2,9 @@
 Solución ejercicio vacante (24007) Desarrollador Backend
 
 ## Tecnologías Utilizadas
-- ASP.NET Core
+- ASP.NET 
 - C#
-- Entity Framework Core
+- Entity Framework 
 - SQL Server
 - Patron de Diseño Patter Repository
 - Arquitectura Limpia y bueenas practicas.
