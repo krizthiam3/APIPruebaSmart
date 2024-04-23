@@ -2707,11 +2707,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CristianValenciaPC\\source\\repos\\PruebaAPI\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\CristianValenciaPC\\Source\\Repos\\APIPruebaSmart\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\CristianValenciaPC\\source\\repos\\PruebaAPI\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\CristianValenciaPC\\Source\\Repos\\APIPruebaSmart\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\CristianValenciaPC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CristianValenciaPC\\source\\repos\\PruebaAPI\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\CristianValenciaPC\\source\\repos\\APIPruebaSmart\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

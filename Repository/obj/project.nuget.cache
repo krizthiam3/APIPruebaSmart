@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FoTjWBkDvzfaWythHRto7WtIFDQysehiOfiCh/lM0NXTjyyesZJSynoJfMQHw+RWoD8dQ5Awlt5Eku61qwBEsg==",
+  "dgSpecHash": "RdEoKN+pGZvwv9sMSQX4cpEkseuH3Q67LNqT6msvLTGmZN4DgdbEh+ueuL/TZMZ3yJzyNuJCB22jYyOFs1tqGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CristianValenciaPC\\source\\repos\\PruebaAPI\\Repository\\Repository.csproj",
+  "projectFilePath": "C:\\Users\\CristianValenciaPC\\Source\\Repos\\APIPruebaSmart\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CristianValenciaPC\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\CristianValenciaPC\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

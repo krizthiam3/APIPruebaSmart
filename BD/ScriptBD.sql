@@ -1,9 +1,26 @@
 
+/****** CREATE TABLES ******/
+/****** CREATE TABLES ******/
+/****** CREATE TABLES ******/
+USE [APIPruebaSmart]
+GO
 
+/****** Object:  Table [dbo].[orderStatus]    Script Date: 18/04/2024 11:13:57 a. m. ******/
+SET ANSI_NULLS ON
+GO
 
-/****** CREATE TABLES ******/
-/****** CREATE TABLES ******/
-/****** CREATE TABLES ******/
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[orderStatus](
+	[StatusId] [int] IDENTITY(1,1) NOT NULL,
+	[Description] [varchar](100) NOT NULL,
+ CONSTRAINT [PK_orderStatus] PRIMARY KEY CLUSTERED 
+(
+	[StatusId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
 
 
 USE [APIPruebaSmart]
@@ -25,6 +42,63 @@ CREATE TABLE [dbo].[category](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
+
+USE [APIPruebaSmart]
+GO
+
+/****** Object:  Table [dbo].[user]    Script Date: 18/04/2024 11:14:14 a. m. ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[user](
+	[UserId] [int] IDENTITY(1,1) NOT NULL,
+	[UserName] [varchar](100) NOT NULL,
+	[Password] [varchar](100) NOT NULL,
+	[Email] [varchar](100) NOT NULL,
+	[Role] [varchar](50) NOT NULL,
+	[Active] [bit] NOT NULL,
+ CONSTRAINT [PK_users] PRIMARY KEY CLUSTERED 
+(
+	[UserId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+USE [APIPruebaSmart]
+GO
+
+/****** Object:  Table [dbo].[product]    Script Date: 18/04/2024 11:14:07 a. m. ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[product](
+	[ProductId] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre] [nvarchar](max) NOT NULL,
+	[Stock] [int] NOT NULL,
+	[Description] [nvarchar](max) NOT NULL,
+	[Price] [float] NOT NULL,
+	[CategoryId] [int] NOT NULL,
+ CONSTRAINT [PK_products] PRIMARY KEY CLUSTERED 
+(
+	[ProductId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[product]  WITH CHECK ADD  CONSTRAINT [FK_product_category] FOREIGN KEY([CategoryId])
+REFERENCES [dbo].[category] ([CategoryId])
+GO
+
+ALTER TABLE [dbo].[product] CHECK CONSTRAINT [FK_product_category]
+GO
+
+
 
 
 USE [APIPruebaSmart]
@@ -104,80 +178,9 @@ GO
 ALTER TABLE [dbo].[orderDetail] CHECK CONSTRAINT [FK_orderDetail_product]
 GO
 
-USE [APIPruebaSmart]
-GO
 
-/****** Object:  Table [dbo].[orderStatus]    Script Date: 18/04/2024 11:13:57 a. m. ******/
-SET ANSI_NULLS ON
-GO
 
-SET QUOTED_IDENTIFIER ON
-GO
 
-CREATE TABLE [dbo].[orderStatus](
-	[StatusId] [int] IDENTITY(1,1) NOT NULL,
-	[Description] [varchar](100) NOT NULL,
- CONSTRAINT [PK_orderStatus] PRIMARY KEY CLUSTERED 
-(
-	[StatusId] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY]
-GO
-
-USE [APIPruebaSmart]
-GO
-
-/****** Object:  Table [dbo].[product]    Script Date: 18/04/2024 11:14:07 a. m. ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
-CREATE TABLE [dbo].[product](
-	[ProductId] [int] IDENTITY(1,1) NOT NULL,
-	[Nombre] [nvarchar](max) NOT NULL,
-	[Stock] [int] NOT NULL,
-	[Description] [nvarchar](max) NOT NULL,
-	[Price] [float] NOT NULL,
-	[CategoryId] [int] NOT NULL,
- CONSTRAINT [PK_products] PRIMARY KEY CLUSTERED 
-(
-	[ProductId] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
-GO
-
-ALTER TABLE [dbo].[product]  WITH CHECK ADD  CONSTRAINT [FK_product_category] FOREIGN KEY([CategoryId])
-REFERENCES [dbo].[category] ([CategoryId])
-GO
-
-ALTER TABLE [dbo].[product] CHECK CONSTRAINT [FK_product_category]
-GO
-
-USE [APIPruebaSmart]
-GO
-
-/****** Object:  Table [dbo].[user]    Script Date: 18/04/2024 11:14:14 a. m. ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
-CREATE TABLE [dbo].[user](
-	[UserId] [int] IDENTITY(1,1) NOT NULL,
-	[UserName] [varchar](100) NOT NULL,
-	[Password] [varchar](100) NOT NULL,
-	[Email] [varchar](100) NOT NULL,
-	[Role] [varchar](50) NOT NULL,
-	[Active] [bit] NOT NULL,
- CONSTRAINT [PK_users] PRIMARY KEY CLUSTERED 
-(
-	[UserId] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY]
-GO
 
 
 

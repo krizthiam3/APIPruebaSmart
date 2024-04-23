@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1vnQvArguO20fz1TszFaZBXQlTj+ofvWVK194EnQE3YllRG7FEheeCeG+TX7+jDJEXqPQKsQQgEVST0Kap+/Fw==",
+  "dgSpecHash": "5oyH70xQDgBFsodh27MCjxqgLufZjKIjjYstwSjpnrCnWZDmBEY5EEa1wYXJhcPNkU23S3miqnqEg2bXgfSdCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CristianValenciaPC\\source\\repos\\PruebaAPI\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\CristianValenciaPC\\Source\\Repos\\APIPruebaSmart\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CristianValenciaPC\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\CristianValenciaPC\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

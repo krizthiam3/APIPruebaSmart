@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I3NoFQ9lmiAXTbhnng1jTo92SITPqu4UwksnWhCNJqU/hQLug1Y4wLBKz9dHPWrbH8lMACpBCyeNptuViIzByA==",
+  "dgSpecHash": "GJ7fgCeR5RzBajo+fr/FnkeDffFCDlOegVJxEaAPAMXeJ0JoC4DyI5VA+bwtJcy97BX5AJObLyimF/3CpzvQfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CristianValenciaPC\\source\\repos\\PruebaAPI\\PruebaAPI\\PruebaAPI.csproj",
+  "projectFilePath": "C:\\Users\\CristianValenciaPC\\Source\\Repos\\APIPruebaSmart\\PruebaAPI\\PruebaAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CristianValenciaPC\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\CristianValenciaPC\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
