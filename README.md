@@ -8,6 +8,8 @@ Solución ejercicio vacante (24007) Desarrollador Backend
 - SQL Server
 - Patron de Diseño Patter Repository
 - Arquitectura Limpia y bueenas practicas.
+- Libreria para envio de notificaciones por mail.
+- NOTA "Para esta prueba se envian notificaciones, cuando se crea o se cambian de estados las ordenes o pedidos"
 
 ## Instalación y Requisitos
 
